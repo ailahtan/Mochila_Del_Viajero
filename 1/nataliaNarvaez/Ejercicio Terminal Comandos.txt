@@ -1,0 +1,60 @@
+Punto 1
+
+PS C:\Users\Ñañati Chan> cd Desktop
+PS C:\Users\Ñañati Chan\Desktop> mkdir informes
+
+
+    Directorio: C:\Users\Ñañati Chan\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----      14/03/2021  8:26 p. m.                informes
+
+
+PS C:\Users\Ñañati Chan\Desktop> cd informes
+PS C:\Users\Ñañati Chan\Desktop\informes> echo $null > informeAnual.xls
+PS C:\Users\Ñañati Chan\Desktop\informes> ls
+
+
+    Directorio: C:\Users\Ñañati Chan\Desktop\informes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----      14/03/2021  8:26 p. m.              2 informeAnual.xls
+
+
+PS C:\Users\Ñañati Chan\Desktop\informes>
+
+Punto 2
+
+PS C:\Users\Ñañati Chan\Desktop\informes> mkdir auditoria
+
+
+    Directorio: C:\Users\Ñañati Chan\Desktop\informes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----      14/03/2021  8:31 p. m.                auditoria
+
+
+PS C:\Users\Ñañati Chan\Desktop\informes> echo $null > auditoria.xls
+PS C:\Users\Ñañati Chan\Desktop\informes> echo $null > reporteConsolidado.xls
+PS C:\Users\Ñañati Chan\Desktop\informes> ls
+
+
+    Directorio: C:\Users\Ñañati Chan\Desktop\informes
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----      14/03/2021  8:31 p. m.                auditoria
+-a----      14/03/2021  8:32 p. m.              2 auditoria.xls
+-a----      14/03/2021  8:26 p. m.              2 informeAnual.xls
+-a----      14/03/2021  8:32 p. m.              2 reporteConsolidado.xls
+
+
+PS C:\Users\Ñañati Chan\Desktop\informes>
+
